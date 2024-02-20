@@ -28,6 +28,10 @@ body {
     #hero {
         width: 100%;
     }
+
+    .search-results {
+        flex-direction: column;
+    }
 }
 
 

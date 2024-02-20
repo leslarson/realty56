@@ -56,7 +56,7 @@
                 Showing {{ $listingCount }} {{ $listingCount>= 2 ? 'Properties' : 'Property'}}
                 </b>
                     @if(!isset($userfav))
-                        &nbsp;-&nbsp;
+                        {{-- &nbsp;-&nbsp; --}}
                         <select id="sort-by" class="sort-by" required="">
                         <option disabled="" selected="">Sort Listings</option>
                         <option value="0">Price - low to high</option>
@@ -70,7 +70,7 @@
                 @endif
                 </b>
                 @if (session()->has('query'))
-                - <a href="/" id="clear-search" class="btn btn-sm btn-warning">Clear Search</a>
+                <a href="/" id="clear-search" class="btn btn-sm btn-warning">Clear Search</a>
                 @endif
             </div>
             <div class="main-body">
