@@ -12,6 +12,7 @@ class ListingController extends Controller
         $cities = ['All Arkansas cities'];
         $request->session()->forget('query');
         $request->session()->forget('thisRegion');
+        $request->session()->forget('goback');
 
         $favorites = [];
         if (auth()->check()) {
@@ -45,6 +46,8 @@ class ListingController extends Controller
 
     public function customListings(Request $request) {
         $input = $request->all();
+        $request->session()->put('goback', $request->fullUrl());
+        // dd($request->url());
         $favorites = [];
         $cities = ['All Arkansas cities'];
 

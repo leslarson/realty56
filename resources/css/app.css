@@ -440,10 +440,6 @@ i {
     width: 80%;
 }
 
-#detail-summary {
-    /* display: flex; */
-}
-
 #listing-container {
     display:flex;
     flex-direction: column;
@@ -454,7 +450,7 @@ i {
     /* width: 70vw; */
     border: 2px solid gray;
     border-radius: 20px;
-    padding: 25px;
+    padding: 15px 25px 25px;
 }
 
 .feature-row {
@@ -529,4 +525,24 @@ i {
     margin: 0 auto;
     border-radius: 5px;
     margin-bottom: 4px;
+}
+
+#goback {
+    display:flex;
+}
+
+.goback {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+    background-color: black;
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+
+.fa-backward {
+    margin-top: 3px;
+    color: white;
 }

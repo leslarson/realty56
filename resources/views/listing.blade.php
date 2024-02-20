@@ -1,5 +1,13 @@
 <x-header :favorites="$favorites"/>
 <div id="listing-container">
+    <div id="goback">
+        @if(session()->has('goback'))
+            <a href="{{ session('goback') }}">
+        @else
+            <a href="/">
+        @endif
+        <span class="goback"><i class="fa-solid fa-backward"></i>&nbsp;Back</span></a>
+    </div>
     <div id="hero">
     <!-- All photos /carousel go here -->
         <div id="carouselContainer" class="carousel slide" data-ride="carousel" data-interval="5000">
