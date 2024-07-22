@@ -181,7 +181,8 @@
         <div class="modal-body">
         
         {{-- Modal content here --}}
-        <p>This is a project I created after self-learning Laravel.
+        <p>
+        This is a project site I created after self-learning Laravel.
         
         I am a software developer. I don't claim to be a web "designer" or graphic designer, so the interface is as friendly in appearance as I can make it. My purpose here is to show my skill at thinking logically and efficiently to produce code (back-end and front-end) that works as expected, for the reasons it was designed to do so.
         
@@ -189,6 +190,7 @@
         
         The realty data is pulled from an API and stored in a local MySQL database. The textual details are rendered at runtime, and the property image is pulled at that time from the API.
         </p>
+        <p>(In order to see an indiviual property's details, you'll need to create an account. The email address can be fake).</p>
         <p>Total time to develop this project (concept, research, development and debugging) was 20 days.</p>
 
         <p>For more details about this project, including all source code, see <a href="https://github.com/leslarson/realty56">github.com/leslarson/realty</a></p>
