@@ -167,3 +167,34 @@
       </div>
     </div>
 </div>
+
+<div class="modal" id="whatisthisModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Realty56 - Site Description</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+        
+        {{-- Modal content here --}}
+        <p>This is a project I created after self-learning Laravel.
+        
+        I am a software developer. I don't claim to be a web "designer" or graphic designer, so the interface is as friendly in appearance as I can make it. My purpose here is to show my skill at thinking logically and efficiently to produce code (back-end and front-end) that works as expected, for the reasons it was designed to do so.
+        
+        All code is original except for two cases: the default scaffolding provided by Laravel for a new project, and a JavaScript component called "Tom Select". 
+        
+        The realty data is pulled from an API and stored in a local MySQL database. The textual details are rendered at runtime, and the property image is pulled at that time from the API.
+        </p>
+        <p>Total time to develop this project (concept, research, development and debugging) was 20 days.</p>
+
+        <p>For more details about this project, including all source code, see <a href="https://github.com/leslarson/realty56">github.com/leslarson/realty</a></p>
+        {{-- Modal content end --}}
+
+        </div>
+      </div>
+    </div>
+</div>

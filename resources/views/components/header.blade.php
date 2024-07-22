@@ -23,15 +23,18 @@
     <body class="antialiased">
         <div id="header">    
             <div id="login-nav">
-                <a href="/" class="emblem">
+                <a href="/">
                     <h3>Realty<em style="color:blue;">56</em></h3>
                 </a>
+                <a href="/" data-toggle="modal" data-target="#whatisthisModal">
+                    <h6>(What is this site?)</h6>
+                </a>
                 @auth
-                @isset($userfav)
-                <div class="favmode">
-                    Your <span style="color:red;">Favorites</span> - click <a href='/'>here</a> to return
-                </div>
-                @endisset
+                    @isset($userfav)
+                        <div class="favmode">
+                            Your <span style="color:red;">Favorites</span> - click <a href='/'>here</a> to return
+                        </div>
+                    @endisset
                     <div class="welcome">
                         Welcome, {{ auth()->user()->username }}!
                     </div>
