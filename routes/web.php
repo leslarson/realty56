@@ -17,7 +17,7 @@ use App\Http\Controllers\ListingController;
 */
 
 // // Load the db from the API, 9800 listings
-// Route::get('loaddb', [HomeController::class, 'home']);
+// Route::get('/loaddb', [HomeController::class, 'home']);
 
 
 // Default operation - Show paginated listings without filtering
@@ -42,7 +42,7 @@ Route::get('/loadpostal', [ListingController::class, 'getPostalData']);
 Route::get('/simple',  [ListingController::class, 'simpleListings']);
 Route::get('/custom',  [ListingController::class, 'customListings']);
 
-Route::get('/listing/{data}', [ListingController::class, 'viewSingleListing']);
+Route::get('/listing/{data}', [ListingController::class, 'viewSingleListing'])->middleware('mustBeLoggedIn');
 
 Route::any('{query}',
     function() { return redirect('/'); })

@@ -18,7 +18,7 @@ class ListingController extends Controller
         if (auth()->check()) {
             $favorites = auth()->user()->getFavorites()->pluck('property_id')->toArray();
         }
-        $listings=Listing::query();
+        $listings = Listing::query();
         $listingCount = $listings->count();
         $listings = $listings->paginate(20);
         return view('home', ['listings' => $listings, 'favorites' => $favorites, 'listingCount' => $listingCount, 'query' => $query, 'cities' => $cities]);

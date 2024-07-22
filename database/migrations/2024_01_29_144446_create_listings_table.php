@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('listings', function (Blueprint $table) {
             $table->id();
             // From API
-            $table->text('property_id')->unique();
+            $table->string('property_id', 10);
             $table->text('listing_id');
             $table->text('status')->nullable();
             $table->text('branding_name')->nullable();

@@ -40,16 +40,34 @@ class Listing extends Model
         'primary_photo'
     ];
 
+    /**
+     * Returns an array of unique zip codes
+     *
+     * @return array
+     */
     public static function getPostals() {
         $postals = DB::table('listings')->select('address_postal_code')->groupBy("address_postal_code")->get();
         return $postals->toArray();
     }
     
+    /**
+     * returns an array of unique city names
+     *
+     * @return array
+     */
     public static function getCities() {
         $cities = DB::table('listings')->select('address_city')->groupBy("address_city")->get();
         return $cities->toArray();
     }
     
+    /**
+     * Takes a property_id and returns the property details
+     * in array $property, and a icon/value/description
+     * for features in the array $features 
+     * 
+     * @param [string] $listing
+     * @return array Returns two arrays
+     */
     public static function getPropertyDetails($listing) {
         $response = Http::withHeaders([
             'X-RapidAPI-Host' => 'realty-in-us.p.rapidapi.com',

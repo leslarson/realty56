@@ -7,6 +7,7 @@
                 <p>Welcome to <b>Realty56.com</b></p>
                 <p>View Arkansas properties</p>
                 <p>NOTE: This is a project site ONLY</p>
+                <p><b>You can search properties by any criteria. To view a particular property's details, you must create an account and sign in.</b></p>
                 <p><b>Do not use for real-time property search or official business.</b></p>
             </div>
             <div class="site-instruct">
