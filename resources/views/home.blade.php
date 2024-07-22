@@ -5,10 +5,10 @@
         <div class="banner mb-4" style="background: url('/images/resized/backdrop.jpg')">
             <div class="site-desc">
                 <p>Welcome to <b>Realty56.com</b></p>
-                <p>View Arkansas properties</p>
-                <p>NOTE: This is a project site ONLY</p>
+                {{-- <p>View Arkansas properties</p> --}}
                 <p><b>You can search properties by any criteria. To view a particular property's details, you must create an account and sign in.</b></p>
-                <p><b>Do not use for real-time property search or official business.</b></p>
+                <p>NOTE: This is a project site ONLY</p>
+                {{-- <p><b>Do not use for real-time property search or official business.</b></p> --}}
             </div>
             <div class="site-instruct">
                 <p><b>Searching:</b></p>
