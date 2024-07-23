@@ -193,7 +193,7 @@
         <p>(In order to see an indiviual property's details, you'll need to create an account. The email address can be fake).</p>
         <p>Total time to develop this project (concept, research, development and debugging) was 20 days.</p>
 
-        <p>For more details about this project, including all source code, see <a href="https://github.com/leslarson/realty56">github.com/leslarson/realty</a></p>
+        <p>For more details about this project, including all source code, see <a href="https://github.com/leslarson/realty56">github.com/leslarson/realty56</a></p>
         {{-- Modal content end --}}
 
         </div>
