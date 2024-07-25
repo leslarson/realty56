@@ -3,7 +3,7 @@
 
 I wanted to create a full project utilizing PHP and Laravel in the back-end, with Blade templating creating the user pages and JavaScript/jQuery/Bootstrap for the front-end.
 
-I am a software developer. I don't claim to be a web "designer" or graphic designer, so the interface is as friendly in appearance as I can make it. My purpose here is to show my skill at thinking logically and efficiently to produce code (back-end and front-end) that works as expected, for the reasons it was designed to do so.
+I am a software developer. I don't claim to be a web "designer" or graphic designer, so the interface is as friendly in appearance as I can make it. My purpose here is to show my skill at thinking logically and efficiently to produce code (back-end and front-end) that works as designed and expected.
 
 I chose Laravel as the PHP framework because it is popular, robust, and comfortable to work with. I could have used Symfony or another framework... I prefer to use Laravel, and I really enjoy working with it.
 

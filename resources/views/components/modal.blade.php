@@ -184,7 +184,7 @@
         <p>
         This is a project site I created after self-learning Laravel.
         
-        I am a software developer. I don't claim to be a web "designer" or graphic designer, so the interface is as friendly in appearance as I can make it. My purpose here is to show my skill at thinking logically and efficiently to produce code (back-end and front-end) that works as expected, for the reasons it was designed to do so.
+        I am a software developer. I don't claim to be a web "designer" or graphic designer, so the interface is as friendly in appearance as I can make it. My purpose here is to show my skill at thinking logically and efficiently to produce code (back-end and front-end) that works as designed and expected.
         
         All code is original except for two cases: the default scaffolding provided by Laravel for a new project, and a JavaScript component called "Tom Select". 
         
