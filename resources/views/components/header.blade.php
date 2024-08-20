@@ -27,7 +27,7 @@
                     <h3>Realty<em style="color:blue;">56</em></h3>
                 </a>
                 <a href="/" data-toggle="modal" data-target="#whatisthisModal">
-                    <h6>(What is this site?)</h6>
+                    <h6>(What is the purpose of this site?)</h6>
                 </a>
                 @auth
                     @isset($userfav)
