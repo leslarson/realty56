@@ -13,7 +13,7 @@ All code is original except for two cases: the *default* scaffolding provided by
 
 The realty data is pulled from an API (https://rapidapi.com/apidojo/api/realty-in-us/) and stored in a local MySQL database. The textual details are rendered at runtime, and the property image is pulled at that time from the API. Selecting a property opens another page, which itself is rendered on-the-fly with image and property detail pulled at that time from the API.
 
-The site is hosted on AWS as an EC2 instance.
+The site is hosted on AWS as an EC2 instance, running Ubuntu Linux and using Nginx as the webserver.
 
 For the purposes of simplicity (since this is not a production site) the data in the local database is not updated automatically. That could be accomplished simply enough with a cron job that could either fire a Laravel work job or a perl script.
 
