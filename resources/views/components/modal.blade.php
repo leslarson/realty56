@@ -191,7 +191,7 @@
         The realty data is pulled from an API and stored in a local MySQL database. The textual details are rendered at runtime, and the property image is pulled at that time from the API.
         </p>
         <p>(In order to see an individual property's details, you'll need to create an account. The email address can be fake).</p>
-        <p>Total time to develop this project (concept, research, development and debugging) was 20 days.</p>
+        <p>Total time to develop this project (concept, research, development and debugging) was 24 days.</p>
 
         <p>For more details about this project, including all source code, see <a href="https://github.com/leslarson/realty56">github.com/leslarson/realty56</a></p>
         {{-- Modal content end --}}
