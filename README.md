@@ -19,4 +19,4 @@ For the purposes of simplicity (since this is not a production site) the data in
 
 The live site is hosted online, at https://realty56.com.
 
-Total time to develop this project (concept, research, development and debugging) was 20 days.
+Total time to develop this project (concept, research, development and debugging) was 24 days.
